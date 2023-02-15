@@ -1,0 +1,17 @@
+character = input("What is your codename?: ")
+if character == "Jax":
+  print("Welcome to the Den, master!")
+else:
+  print("You are probably not supposed to be here")
+print()
+chamber = input("Which chamber would you like to visit? ")
+if chamber == "Pleasure Chamber":
+  print("Aha, we would get that ready for you")
+else: 
+  print("That chamber is not available right now")
+print()
+person = input("Who would you like to see today? ")
+if person == "Delilah":
+  print("She would meet you in the pleasure chamber")
+else:
+  print("Not available today")
