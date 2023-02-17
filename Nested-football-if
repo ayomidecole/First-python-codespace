@@ -1,0 +1,27 @@
+league = input("What is your favorite Football League? ")
+if league == "Premier League":
+  print("You know the vibes!!")
+  print()
+  team = input ("What is your favourite team? ")
+  if team == "Manchester United":
+    print("The best in the world!!!")
+  if team == "Manchester City":
+    print("Eww! At least it is not Arsenal or liverpool")
+  if team == "Liverpool":
+    print("Yuck")
+  if team == "Arsenal":
+    print("Disgusting!")
+  else:
+    print("Who cares about them")
+elif league == "La Liga":
+  print("Not bad, but it's definitely not the same without Ronaldo and Messi.")
+  print()
+  team = input ("What is your favourite team? ")
+  if team == "Real Madrid":
+    print("Cliche!")
+  if team == "Barcelona":
+    print("Cliche!")
+  else:
+    print("Unimportant")
+else:
+  print("Yeah that nice, I guess!")
