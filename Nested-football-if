@@ -23,5 +23,15 @@ elif league == "La Liga":
     print("Cliche!")
   else:
     print("Unimportant")
+elif league == "Bundesliga":
+  print("A lot of people don't rate Bundesliga, but I do")
+  print()
+  team = input("What is your favourite team? ")
+  if team == "Dortmund":
+    print("They paly brilliant footbal, don't they")
+  if team == "Bayern":
+    print("Of course it is! smh")
+  else:
+    print("I've never seen any of their games")
 else:
   print("Yeah that nice, I guess!")
