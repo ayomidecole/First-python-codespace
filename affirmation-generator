@@ -1,0 +1,31 @@
+print("=== DAILY AFFIRMATION GENERATOR ===")
+print()
+name = input("What is your name? ")
+print()
+day = input("What is the day of the week? ")
+print()
+activity = input("What do you want to achieve today? ")
+print()
+if name == "Ayomide" or name == "ayomide":
+  if day == "Monday" or day == "monday":
+    print(name,"Hey! What a day to",activity,". Go get after it this week!")
+  if day == "Tuesday" or day == "tuesday":
+    print("WOIIII!", name,"You're the best, keep striving to",activity)
+  if day == "Wednesday" or day == "wednesday":
+    print("Stupid", name,"You're not going to",activity)
+  if day == "Thursday" or day == "thursday":
+    print(name, "I apologize being so hard on you yesterday. You're doing good sweetie")
+  if day == "Friday" or day == "friday":
+    print(name, "Happy end of the week, I hope you were able to", activity)
+
+if name == "Mia" or name == "mia":
+  if day == "Monday" or day == "monday":
+    print(name,"Hey! What a day to",activity,". Go get after it this week!")
+  if day == "Tuesday" or day == "tuesday":
+    print("WOIIII!", name,"You're the best, keep striving to",activity)
+  if day == "Wednesday" or day == "wednesday":
+    print("Stupid", name,"You're not going to",activity)
+  if day == "Thursday" or day == "thursday":
+    print(name, "Do not come back here ok!")
+  if day == "Friday" or day == "friday":
+    print(name, "Happy end of the week, I hope you were able to", activity)
