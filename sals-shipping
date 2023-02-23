@@ -1,0 +1,35 @@
+print("Welcome to Sal's shipping")
+print()
+
+weight = 24
+print(weight,"lbs")
+print()
+#Ground shipping
+ 
+if weight >= 2:
+  cost = 20 + (weight * 1.50)
+elif weight > 2 and  weight <= 6:
+  cost = 20 + (weight * 3)
+elif weight > 6 and  weight <= 10:
+  cost = 20 + (weight * 4)
+elif weight > 10:
+  cost = 20 + (weight * 4.75)
+
+print ("The cost for ground shipping would be $", cost)
+print()
+cost_ground_premium = 125.00
+print("The cost for ground shipping premium would be $", cost_ground_premium)
+print()
+#Drone Shipping
+
+if weight >= 2:
+  drone_cost = weight * 4.5
+elif weight > 2 and  weight <= 6:
+  drone_cost = weight * 9
+elif weight > 6 and  weight <= 10:
+  drone_cost = weight * 12
+elif weight > 10:
+  drone_cost = weight * 14.5
+
+drone_cost = round(drone_cost, 2)
+print ("The cost for drone shipping would be $", drone_cost)
