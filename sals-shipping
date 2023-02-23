@@ -1,7 +1,8 @@
 print("Welcome to Sal's shipping")
 print()
 
-weight = 24
+weight = float(input("How much does your pacage weigh? "))
+print()
 print(weight,"lbs")
 print()
 #Ground shipping
