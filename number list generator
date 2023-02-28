@@ -1,0 +1,15 @@
+print("======== List Generator ========")
+print()
+
+number_list = []
+start_number = int(input("What is your starting number? "))
+print()
+end_number = int(input("What is your end number? "))
+print()
+increment = int(input("What is the increment between the values? "))
+print()
+for i in range (start_number, end_number, increment):
+  number_list.append(i)
+
+print()
+print("Here's your list =", number_list)
